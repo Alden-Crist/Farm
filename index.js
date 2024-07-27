@@ -198,8 +198,8 @@ const server = http.createServer((req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 8000;
-const HOST = process.env.HOST || '127.0.0.1';
+const PORT =  8000;
+const HOST =  '127.0.0.1';
 
 server.listen(PORT, HOST, () => {
   console.log(`Listening to requests on ${HOST}:${PORT}`);
